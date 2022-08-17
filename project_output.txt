@@ -1,0 +1,68 @@
+yves_semg@147dda6bb173 project2 % javac *.java                           
+yves_semg@147dda6bb173 project2 % java CourseStatisticsTester courses.txt
+*** Displaying courses and their full descriptions...
+Displaying 19 courses.
+CPSC333: Computer Networks has been taken by 58 students and has a 93% recommendation score.
+CPSC399: Independent Study has been taken by 119 students and has a 94% recommendation score.
+CPSC320: Analysis of Algorithms has been taken by 88 students and has a 77% recommendation score.
+CPSC375: High-Performance Computing has been taken by 45 students and has a 91% recommendation score.
+CPSC310: Software Design has been taken by 152 students and has a 88% recommendation score.
+CPSC340: Principles of Software Engineering has been taken by 56 students and has a 85% recommendation score.
+CPSC110: Visual Computing has been taken by 126 students and has a 80% recommendation score.
+CPSC275: Introduction to Computer Systems has been taken by 80 students and has a 87% recommendation score.
+CPSC352: Artificial Intelligence has been taken by 76 students and has a 68% recommendation score.
+CPSC385: Computer Security has been taken by 116 students and has a 85% recommendation score.
+CPSC219: Theory of Computation has been taken by 116 students and has a 78% recommendation score.
+CPSC304: Computer Graphics has been taken by 98 students and has a 82% recommendation score.
+CPSC315: Systems Software has been taken by 84 students and has a 88% recommendation score.
+CPSC316: Foundations of Programming Languages has been taken by 56 students and has a 82% recommendation score.
+CPSC115: Introduction to Computing has been taken by 134 students and has a 89% recommendation score.
+CPSC203: Mathematical Foundations of Computing has been taken by 96 students and has a 87% recommendation score.
+CPSC225: Event Driven Programming has been taken by 117 students and has a 76% recommendation score.
+CPSC215: Data Structures and Algorithms has been taken by 67 students and has a 80% recommendation score.
+TEST000: Test course has been taken by 5 students and has a 100% recommendation score.
+
+*** Displaying courses sorted by their recommendation rates...
+TEST000: 100%
+CPSC399: 94%
+CPSC333: 93%
+CPSC375: 91%
+CPSC115: 89%
+CPSC310: 88%
+CPSC315: 88%
+CPSC275: 87%
+CPSC203: 87%
+CPSC385: 85%
+CPSC340: 85%
+CPSC304: 82%
+CPSC316: 82%
+CPSC110: 80%
+CPSC215: 80%
+CPSC219: 78%
+CPSC320: 77%
+CPSC225: 76%
+CPSC352: 68%
+
+*** Looking up courses...
+Enter a course ID to look up statistics. Enter ’s’ to stop.
+Course ID: CPSC215
+CPSC215: Data Structures and Algorithms has been taken by 67 students and has a 80% recommendation score.
+Enter a course ID to look up statistics. Enter ’s’ to stop.
+Course ID: CPSC333
+CPSC333: Computer Networks has been taken by 58 students and has a 93% recommendation score.
+Enter a course ID to look up statistics. Enter ’s’ to stop.
+Course ID: XYZ
+No such course! Try again.
+Enter a course ID to look up statistics. Enter ’s’ to stop.
+Course ID: s
+
+*** Comparing courses...
+Enter course IDs to compare. Enter ’s’ to stop.
+Course ID: CPSC340
+Course ID: CPSC275
+Course ID: CPSC375
+Course ID: XYZ
+No such course! Try again.
+Course ID: s
+Best course to take: CPSC375: High-Performance Computing has been taken by 45 students and has a 91% recommendation score.
+yves_semg@147dda6bb173 project2 % 
